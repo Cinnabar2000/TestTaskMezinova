@@ -36,3 +36,4 @@ create table dbo.Basket(
 	constraint CHK_Ouantity check(Ouantity >= 0),
 	constraint CHK_Value check(Value >= 0)
 );
+go
